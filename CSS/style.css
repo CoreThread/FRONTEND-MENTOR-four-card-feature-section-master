@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: hsl(229, 6%, 66%);
+}
+
+.box {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafafa;
+}
+
+h3 {
+    color: hsl(234, 12%, 34%);
+    font-size: 1.10rem;
+    margin-right: 165px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+}
+
+.one {
+    color: hsl(234, 12%, 34%);
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.two {
+    color: hsl(234, 12%, 34%);
+    font-size: 2rem;
+}
+
+.three {
+    width: 500px;
+    text-align: center;
+}
+
+.bottom {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    height: 70%;
+    /* width: 1100px; */
+}
+
+img {
+    width: 50px;
+    margin-left: 200px;
+    margin-top: 38px;
+}
+
+.xxx {
+    width: 275px;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 9px 1px hsl(229, 6%, 66%);
+    padding: 10px;
+}
+
+.xxx p {
+    font-size: 0.75rem;
+}
+
+.cyan {
+    border-top: 4px solid hsl(180, 62%, 55%);
+    left: 125px;
+    position: relative;
+    top: 170px;
+}
+
+.red {
+    border-top: 4px solid hsl(0, 78%, 62%);
+    left: 145px;
+    top: 65px;
+    position: relative;
+}
+
+.red h3 {
+    margin-right: 143px;
+}
+
+.yellow {
+    border-top: 4px solid hsl(34, 97%, 64%);
+    position: relative;
+    left: -130px;
+    top: 275px;
+}
+
+.blue {
+    border-top: 4px solid hsl(212, 86%, 64%);
+    position: relative;
+    left: -107px;
+    top: 170px;
+}
+
+@media (max-width: 900px) {
+    .top {
+        width: 360px;
+        height: 20%;
+    }
+
+    .three {
+        width: 322px;
+    }
+
+    .two {
+        font-size: 1.75rem;
+    }
+
+    .one {
+        font-size: 1.75rem;
+    }
+
+    .bottom {
+        width: 360px;
+        height: 80%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cyan,
+    .blue,
+    .yellow,
+    .red {
+        position: inherit;
+        margin-top: 25px;
+    }
+
+    .xxx p {
+        font-size: .80rem;
+    }
+}
